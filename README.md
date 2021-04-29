@@ -21,6 +21,7 @@ To start the priority medical server
 ### `cd server`
 ### `npm install`
 ### `nodemon app.js`
+
 <br/>
 it will start at localhost 8000
 
@@ -30,6 +31,7 @@ To start the hydro heal client
 ### `cd client`
 ### `npm install`
 ### `npm start`
+
 <br/>
 it will start at localhost 3000
 
@@ -39,6 +41,7 @@ To start the priority medical client
 ### `cd client`
 ### `npm install`
 ### `npm start`
+
 <br/>
 it will start at localhost 3001
 
