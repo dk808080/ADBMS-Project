@@ -1,0 +1,82 @@
+const mongoose = require("mongoose");
+
+const patientSchema = new mongoose.Schema({
+    pid : {
+        type:String,
+        required:true
+    },
+    name:{
+        type:String,
+        required:true
+    },
+    phoneno:{
+        type:String,
+        required:true
+    },
+    email:{
+        type:String,
+        required:true
+    },
+    age:{
+        type:Number,
+        required:true
+    },
+    gender:{
+        type:String,
+        required:true
+    },
+    address:{
+        type:String,
+        required:true
+    },
+    weight:{
+        type:String,
+        required:true
+    },
+    height:{
+        type:String,
+        required:true
+    },
+    temprature:{
+        type:String,
+        required:true
+    },
+   bp:{
+        type:String,
+        required:true
+    },
+    cheif_complaints :{
+        type:String,
+        required:true
+    },
+    more_info : {
+        type:String,
+        required:true
+    },
+    pic:{
+        type:String,
+        default:"https://res.cloudinary.com/xmeme-image-store/image/upload/v1619277065/nopic_rm6tcb.jpg"
+    },
+   reports:[{
+       name:{
+        type:String,
+        required:true
+       },
+       link:{
+        type:String,
+        required:true
+       }
+   }],
+   doctors:[{
+       regno:{
+        type:String,
+        required:true
+       },
+       name:{
+        type:String,
+        required:true
+       }
+   }]
+})
+
+mongoose.model("Patient",patientSchema);
