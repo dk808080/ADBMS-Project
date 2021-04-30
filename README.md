@@ -1,6 +1,6 @@
 # ADBMS-Project
 
-add your MongoDB or local data base link 
+add your MongoDB or local data base links for both the hospitals in app.js file (value of MONGOURI variable)
 
 ## Available Scripts
 
