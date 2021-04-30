@@ -17,12 +17,12 @@ it will start at localhost 5000
 
 <br/>
 To start the priority medical server
+
 ### `cd priority medical`
 ### `cd server`
 ### `npm install`
 ### `nodemon app.js`
 
-<br/>
 it will start at localhost 8000
 
 <br/>
@@ -47,5 +47,5 @@ it will start at localhost 3001
 
 
 
-<br/>
+
 Then navigate to your browser http://localhost:3000/ to view the app of hydro heal and to http://localhost:3001/ to view the app of priority medical
