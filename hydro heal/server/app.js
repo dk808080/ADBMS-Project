@@ -5,7 +5,7 @@ const cors = require('cors');
 const app = express();
 app.use(cors());
 
-const MONGOURI = "mongodb+srv://admin-dimpal:dimpal@cluster0.2gthh.mongodb.net/myFirstDatabase?retryWrites=true&w=majority";
+const MONGOURI = "add your own mongo url";
 
 mongoose.connect(MONGOURI,{
     useNewUrlParser:true,
